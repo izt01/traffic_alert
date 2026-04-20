@@ -1,0 +1,19 @@
+{
+  "name": "traffic-alert",
+  "version": "1.0.0",
+  "description": "東名・中央道・圏央道の渋滞情報をメールで定期通知するサービス",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "test": "node src/test.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0",
+    "express": "^5.2.1",
+    "node-cron": "^3.0.3",
+    "pg": "^8.11.0"
+  }
+}
